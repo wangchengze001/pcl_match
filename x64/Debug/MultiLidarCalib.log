@@ -1,0 +1,15 @@
+﻿  MultiLidarCalib.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\program files\pcl 1.8.1\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\iostreams\positioning.hpp(96): warning C4996: 'std::fpos<_Mbstatet>::seekpos': warning STL4019: The member std::fpos::seekpos() is non-Standard, and is preserved only for compatibility with workarounds for old versions of Visual C++. It will be removed in a future release, and in this release always returns 0. Please use standards-conforming mechanisms to manipulate fpos, such as conversions to and from streamoff, or an integral type, instead. If you are receiving this message while compiling Boost.IOStreams, a fix has been submitted upstream to make Boost use standards-conforming mechanisms, as it does for other compilers. You can define _SILENCE_FPOS_SEEKPOS_DEPRECATION_WARNING to acknowledge that you have received this warning, or define _REMOVE_FPOS_SEEKPOS to remove std::fpos::seekpos entirely.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\iosfwd(59): note: 参见“std::fpos<_Mbstatet>::seekpos”的声明
+c:\program files\pcl 1.8.1\include\pcl-1.8\pcl\sample_consensus\ransac.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\pcl 1.8.1\include\pcl-1.8\pcl\sample_consensus\model_types.h(99): warning C4996: 'pcl::SAC_SAMPLE_SIZE': This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class
+  c:\program files\pcl 1.8.1\include\pcl-1.8\pcl\sample_consensus\model_types.h(99): note: 参见“pcl::SAC_SAMPLE_SIZE”的声明
+c:\program files\pcl 1.8.1\include\pcl-1.8\pcl\sample_consensus\sac_model_registration.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\pcl 1.8.1\include\pcl-1.8\pcl\sample_consensus\sac_model_registration.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\pcl 1.8.1\include\pcl-1.8\pcl\visualization\interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\pcl 1.8.1\include\pcl-1.8\pcl\visualization\pcl_visualizer.h(1584): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\jlurobot\source\repos\multilidarcalib\multilidarcalib\multilidarcalib.cpp(90): warning C4996: 'pcl::ConditionalRemoval<pcl::PointXYZ>::ConditionalRemoval': ConditionalRemoval(ConditionBasePtr condition, bool extract_removed_indices = false) is deprecated, please use the setCondition (ConditionBasePtr condition) function instead.
+  c:\program files\pcl 1.8.1\include\pcl-1.8\pcl\filters\conditional_removal.h(630): note: 参见“pcl::ConditionalRemoval<pcl::PointXYZ>::ConditionalRemoval”的声明
+  MultiLidarCalib.vcxproj -> C:\Users\jlurobot\source\repos\MultiLidarCalib\x64\Debug\MultiLidarCalib.exe
